@@ -5,9 +5,11 @@
   "website": "https://github.com/davidkassa/southwest-checkin-3",
   "repository": "https://github.com/davidkassa/southwest-checkin-3",
   "success_url": "/",
+  "stack": "heroku-18",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate db:seed"
   },
+    
   "env": {
     "RAILS_ENV": "production",
     "RACK_ENV": "production",
